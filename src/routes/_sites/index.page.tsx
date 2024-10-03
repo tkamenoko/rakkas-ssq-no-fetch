@@ -7,7 +7,8 @@ const Home: Page = () => {
   });
   return (
     <div>
-      <h1>Fetched status: {data.content}</h1>
+      <h1>Home</h1>
+      <p>Fetched status: {data.content}</p>
       <Link href="/load">go to /load</Link>
     </div>
   );

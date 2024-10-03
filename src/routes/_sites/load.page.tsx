@@ -7,7 +7,8 @@ const Load: Page = () => {
   });
   return (
     <div>
-      <h1>Fetched status: {data.content}</h1>
+      <h1>Load</h1>
+      <p>Fetched status: {data.content}</p>
       <Link href="/">Back to home</Link>
     </div>
   );
