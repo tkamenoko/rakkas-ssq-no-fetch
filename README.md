@@ -1,6 +1,6 @@
 # rakkas-ssq-no-fetch
 
-Rakkas dev server and production server cannot run `useSSQ` on page transition.
+Rakkas dev server and production server cannot call `fetch` in `useSSQ` on page transition.
 
 ## Setup
 
